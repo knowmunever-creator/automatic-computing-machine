@@ -1,0 +1,30 @@
+### AL ###
+# Template for AL projects for Dynamics 365 Business Central
+.vscode/
+.alcache/
+.alpackages/
+.snapshots/
+.output/
+*.app
+*.g.xlf
+*.bclicense
+*.flf
+TestResults.xml
+
+# Local environment / secrets
+.env
+.env.*
+!.env.example
+
+# Claude Code local credentials/config
+.claude/settings.json
+.claude/settings.local.json
+.claude/profiles/*/settings.json
+
+# Local deployment state
+caddy_data/
+caddy_config/
+
+# IRENX recovery/authentication secrets
+recovery-codes.txt
+*recovery-codes*
